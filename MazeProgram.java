@@ -24,7 +24,7 @@ public class MazeProgram extends JPanel implements KeyListener,MouseListener
 	int cy = 200;
 	double r = 0.33;
 	int res = 16;
-	String resourcePack = "minecraft";
+	String resourcePack = "standard";
 	String[] textures = {"wall", "floor", "roof", "finish", "collectible", "paywall"};
 	Color[][][] textureMap = new Color[textures.length][res][res];
 
